@@ -25,6 +25,6 @@ function romberg(n, a, b) {
     }
     return R[i][i];
 }
-let f = x => ... /* Inserisci la funzione 'f' della quale vuoi calcolare l'integrale definito nell'intervallo specificato nei primi due argomenti della funzione 'romberg' */
+let f = x => ... /* Inserisci la funzione 'f' della quale vuoi calcolare l'integrale definito nell'intervallo specificato con gli argomenti 'a' e 'b' della funzione 'romberg' */
 /* Il programma funziona anche inserendo un quarto argomento nel seguente modo:
 /* console.log(romberg(n, a, b, new Function("x", *//* Inserisci di seguito, nelle virgolette, dopo 'return', una funzione alternativa, se vuoi che il programma ne calcoli l'integrale definito invece di calcolare quello della funzione 'f' pocanzi definita *//* "return ..."))) */
